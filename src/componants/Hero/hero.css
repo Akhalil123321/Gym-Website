@@ -48,11 +48,8 @@
     flex-direction: column;
     gap: 1.5rem;
 }
-.normal-span{
-    text-transform: uppercase;
-    font-size: 4.5rem;
-    font-weight: 700;
-    color: #ffffff;
+.large{
+    font-size: 7rem;
 }
 .hero-par{
     color:#ffffff;

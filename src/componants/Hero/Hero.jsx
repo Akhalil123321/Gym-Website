@@ -16,11 +16,11 @@ const Hero = () => {
                 </div>
                 <div className='shap-ideal-body'>
                     <div>
-                        <span className='normal-span transparent-text'>shape </span>
-                        <span className='normal-span'>your</span>
+                        <span className='normal-title transparent-title large'>shape </span>
+                        <span className='normal-title large'>your</span>
                     </div>
                     <div>
-                        <span className='normal-span'>ideal body</span>
+                        <span className='normal-title large'>ideal body</span>
                     </div>
                 </div>
                 <p className='hero-par'>In here we will help you to shape and build your ideal body and live up your life to fullest</p>

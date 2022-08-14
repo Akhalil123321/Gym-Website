@@ -20,9 +20,9 @@ const Explore = () => {
     return(
         <div>
             <div className="ex-head-cont">
-                <span className="normal-span transparent-text ">explore our</span>
-                <span className="normal-span ">programs</span>
-                <span className="normal-span transparent-text ">to shape you</span>
+                <span className="normal-title transparent-title italic">explore our</span>
+                <span className="normal-title italic">programs</span>
+                <span className="normal-title transparent-title italic">to shape you</span>
             </div>
             <div className="cards-container">
                 {programCards}
