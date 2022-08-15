@@ -1,0 +1,138 @@
+.testimonials-cont{
+    display: flex;
+    width: 100%;
+}
+.right-all{
+    padding:0 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+.testimonials{
+    font-size: 1rem;
+    font-weight: 800;
+    color: var(--orange);
+    text-transform: uppercase;
+}
+.aboutus-title-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.test-timonials{
+    display: flex;
+}
+.timonial-left{
+    width: 75%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.timonial-review{
+    font-size: 1rem;
+    word-spacing: 1px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    line-height: 2.5rem;
+    
+}
+.animation4{
+    animation-name:  text-move;
+    animation-duration: 1s;
+}
+@keyframes text-move {
+    0%   {
+        transform: translateX(-30%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+} 
+.timonial-name-status>:nth-child(1){
+    color: var(--orange);
+    
+}
+.timonial-right{
+    width: 45%;
+    position: relative;
+}
+.box{
+    width: 16.8rem;
+    height: 18.8rem;
+}
+.bordered{
+    background-color: transparent;
+    border: 3px solid var(--orange);
+    position: absolute;
+    top:-1rem;
+    right: 11rem;
+
+}
+.animation1{
+    animation-name:  borderd-move;
+    animation-duration: 1s;
+}
+@keyframes borderd-move {
+    0%   {right: 15rem;}
+    100% {right: 11rem;}
+} 
+.solid{
+    background-image: var(--planCard);
+    position: absolute;
+    top: 1rem;
+    right: 9rem;
+}
+.animation2{
+    animation-name:  solid-move;
+    animation-duration: 1s;
+}
+@keyframes solid-move {
+    0%   {right: 5rem;}
+    100% {right: 9rem;}
+} 
+.timoinal-image{
+    height: 18.8rem;
+    width: 16.8rem;
+    object-fit:cover ;
+    position: absolute;
+    top: 0;
+    right: 10rem;
+}
+.animation3{
+    animation-name:  image-move;
+    animation-duration: .4s;
+}
+@keyframes image-move {
+    0%   {
+        right: 6rem;
+        opacity: 0;
+    }
+    50%{
+        opacity: .5;
+    }
+    100% {
+        right: 10rem;
+        opacity: 1;
+    }
+} 
+.timonial-arrows{
+    position: absolute;
+    right: 37rem;
+    top: 18rem;
+    display: flex;
+    align-self: center;
+    gap: 1rem;
+}
+.timonial-left-arrow{
+    width: 1.5em;
+    cursor: pointer;
+}
+.timonial-right-arrow{
+    width: 1.5em;
+    transform: rotate(180deg);
+    cursor: pointer;
+}

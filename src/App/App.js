@@ -3,6 +3,7 @@ import Hero from '../componants/Hero/Hero'
 import Explore from '../componants/explore/Explore'
 import Reasons from '../componants/reasons/Reasons'
 import Plans from '../componants/plans/Plans'
+import AboutUs from '../componants/aboutus/AboutUs'
 import Footer from '../componants/footer/Footer'
 import './App.css';
 function App() {
@@ -12,6 +13,7 @@ function App() {
 			<Explore/>
 			<Reasons/>
 			<Plans/>
+			<AboutUs/>
 			<Footer/>
 		</div>
 	);
