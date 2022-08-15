@@ -1,5 +1,5 @@
 .ex-head-cont{
-    width: 85%;
+    width: 75%;
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -30,9 +30,6 @@
 }
 .card-one:hover{
 background-image: var(--planCard);
-}
-svg{
-    color: #ffffff;
 }
 .ex-header{
 font-size: 1rem;

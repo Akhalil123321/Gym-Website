@@ -7,6 +7,7 @@ import heroBackground from '../../images/hero_image_back.png'
 import './hero.css'
 const Hero = () => {
 	return(
+    <main>
 		<div className='hero'>
             <div className='l-side'>
                 <NavBar/>
@@ -44,7 +45,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className='r-side'>
-                <button className='btn l-btn'>Join Now</button>
+                <button className='btn l-btn absoulute'>Join Now</button>
                 <div className="heart-rate">
                     <img src={heart} alt="" />
                     <span className='score-type score-n1'>Heart Rate</span>
@@ -61,6 +62,8 @@ const Hero = () => {
                 </div>
             </div>
         </div>
+    </main>
+
 	)
 }
 export default Hero

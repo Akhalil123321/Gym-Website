@@ -3,7 +3,7 @@ import logo from '../../images/logo.png'
 import './navBar.css'
 const NavBar = () => {
 	return(
-		<div className='header'>
+		<header className='header'>
 			<img src={logo} alt='' className='logo'/>
 			<ul className='n-b-list'>
 				<li>Home</li>
@@ -12,7 +12,7 @@ const NavBar = () => {
 				<li>Plans</li>
 				<li>Testimonials</li>
 			</ul>
-		</div>
+		</header>
 	)
 }
 export default NavBar

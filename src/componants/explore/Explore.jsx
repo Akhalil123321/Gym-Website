@@ -18,7 +18,7 @@ const Explore = () => {
         )
     })
     return(
-        <div>
+        <section>
             <div className="ex-head-cont">
                 <span className="normal-title transparent-title italic">explore our</span>
                 <span className="normal-title italic">programs</span>
@@ -27,7 +27,7 @@ const Explore = () => {
             <div className="cards-container">
                 {programCards}
             </div>
-        </div>
+        </section>
     )
 }
 export default Explore
