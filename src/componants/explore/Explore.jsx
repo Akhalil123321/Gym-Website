@@ -18,7 +18,7 @@ const Explore = () => {
         )
     })
     return(
-        <section>
+        <section className="part-cont">
             <div className="ex-head-cont">
                 <span className="normal-title transparent-title italic">explore our</span>
                 <span className="normal-title italic">programs</span>

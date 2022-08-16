@@ -5,16 +5,13 @@
     margin: auto;
     margin-bottom: 2rem;
 }
-.normal-span{
-    font-size: 3rem;
-    font-style: italic;
-}
 .cards-container{
     display: flex;
     width: 95%;
     margin: auto;
     gap: 1rem;
 }
+
 .card-one{
     background-color: rgb(128,128,128);
     display: flex;
@@ -57,4 +54,28 @@ width: 1rem;
 }
 path{
     fill:#ffffff;
+}
+@media screen and (max-width: 900px) {
+    .ex-head-cont{
+    flex-direction: column;
+    text-align: center;
+    gap: 1.2rem;
+    }
+    .part-cont{
+        align-items: center;
+    }
+    .cards-container{
+        flex-direction: column;
+        height: 80rem;
+        width: 90%;
+        gap: 2rem;
+
+    }
+    .card-one{
+        font-size: 1.2rem;
+    }
+    .ex-header{
+        font-size: 1.3rem;
+        font-weight: 800;
+        }
 }
