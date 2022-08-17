@@ -36,7 +36,6 @@
     font-weight: lighter;
     letter-spacing: 2px;
     line-height: 2.5rem;
-    
 }
 .animation4{
     animation-name:  text-move;
@@ -135,4 +134,41 @@
     width: 1.5em;
     transform: rotate(180deg);
     cursor: pointer;
+}
+@media screen and (max-width: 900px) {
+    .testimonials-cont{
+        flex-direction: column;
+        font-size: 1.2rem;
+    }
+    .box{
+        display: none;
+    }
+    .timonial-right{
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+    }
+    .timoinal-image{
+        position:unset;
+        width: 18rem;
+        display: flex;
+        margin:4rem auto;
+    }
+    .timonial-arrows{
+        position: unset;
+        align-items: center;
+        justify-content: center;
+        margin:4rem ;
+    }
+    .timonial-left{
+        width: 90%;
+        font-size: 1.2rem;
+    }
+    .testimonials{
+        font-size: 1.4rem;
+    }
+    .timonial-review{
+        font-size: 1.2rem;
+        word-spacing: 8px;
+    }
 }

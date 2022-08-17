@@ -26,8 +26,8 @@ const Reasons = () => {
                 <div className="reasons-cont">
                     <span className="some-reasons">some reasons</span>
                     <div>
-                        <span className="normal-title transparent-title italic">why</span>
-                        <span className="normal-title italic"> choose us?</span>
+                        <span className="normal-title transparent-title italic res-large">why</span>
+                        <span className="normal-title italic res-large"> choose us?</span>
                     </div>
                     <div className="reason-list-cont">
                         <div className="reason-list">

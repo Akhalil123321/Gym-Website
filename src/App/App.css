@@ -90,4 +90,10 @@ path{
 	.italic{
 		font-size: 2rem;
 	}
+	.res-large{
+		font-size: 4rem;
+	}
+	.italic{
+		font-style:normal;
+	}
 }

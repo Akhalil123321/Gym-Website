@@ -4,15 +4,15 @@ import leftArrow from '../../images/leftArrow.png'
 import testimonialsData from '../../data/testimonialsData'
 import './aboutus.css'
 const AboutUs = () => {
+    const getElements = (element, animation) => {
+        document.getElementById(element).classList.remove(animation)
+        setTimeout(()=>{document.getElementById(element).classList.add(animation)},1)
+    }
     const resetAnimation =() => {
-        document.getElementById('timonial-bordered').classList.remove('animation1')
-        setTimeout(()=>{document.getElementById('timonial-bordered').classList.add('animation1')},1)
-        document.getElementById('timonial-solid').classList.remove('animation2')
-        setTimeout(()=>{document.getElementById('timonial-solid').classList.add('animation2')},1)
-        document.getElementById('timoinal-image').classList.remove('animation3')
-        setTimeout(()=>{document.getElementById('timoinal-image').classList.add('animation3')},1)
-        document.getElementById('timonial-review').classList.remove('animation4')
-        setTimeout(()=>{document.getElementById('timonial-review').classList.add('animation4')},1)
+        getElements('timonial-bordered', 'animation1')
+        getElements('timonial-solid', 'animation2')
+        getElements('timoinal-image', 'animation3')
+        getElements('timonial-review', 'animation4')
     }
     const [count,setCount] = React.useState(0)
     let timonials = testimonialsData[count]

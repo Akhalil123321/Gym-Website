@@ -1,7 +1,7 @@
 .pack-cont{
-display: flex;
-padding: 2rem;
-gap: 2rem;
+    display: flex;
+    padding: 2rem;
+    gap: 2rem;
 }
 .colection-cont{
     flex: 1;
@@ -83,4 +83,40 @@ color: var(--gray);
 }
 .logos-cont>img{
     width: 2.5rem;
+}
+@media screen and (max-width: 900px) {
+    .pack-cont{
+        flex-direction: column;
+    }
+    .colection-cont{
+        gap: 8vw;
+    }
+    .collect-pack1{
+        height: 22rem;
+        width: 9rem;
+    }
+    .collect-pack2{
+        height: 22rem;
+    }
+    .collect-pack2-2{
+        gap: 8vw;
+    }
+    .reasons-cont{
+        gap: 2rem;
+    }
+    .some-reasons{
+        font-size: 1.3rem;
+    }
+    .reason-list>img{
+        width: 2.5rem;
+    }
+    .reason-list>span{
+        font-size: 1.3rem;
+    }
+    .parteners{
+        font-size: 1.8rem;
+    }
+    .logos-cont>img{
+        width: 3rem;
+    }
 }
