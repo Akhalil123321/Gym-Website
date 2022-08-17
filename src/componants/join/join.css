@@ -42,9 +42,13 @@
         gap: 3rem;
     }
     .email-input{
-        width: 70%;
+        width: 90%;
+        max-width: 25rem;
         margin: auto;
         height: 5em;
         display: flex;
+    }
+    ::placeholder {
+        font-size: .8rem;
     }
 }

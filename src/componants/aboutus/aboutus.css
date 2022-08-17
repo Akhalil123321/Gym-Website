@@ -37,7 +37,7 @@
     letter-spacing: 2px;
     line-height: 2.5rem;
 }
-.animation4{
+/* .animation4{
     animation-name:  text-move;
     animation-duration: 1s;
 }
@@ -50,7 +50,7 @@
         transform: translateX(0%);
         opacity: 1;
     }
-} 
+}  */
 .timonial-name-status>:nth-child(1){
     color: var(--orange);
     
@@ -71,28 +71,28 @@
     right: 11rem;
 
 }
-.animation1{
+/* .animation1{
     animation-name:  borderd-move;
     animation-duration: 1s;
 }
 @keyframes borderd-move {
     0%   {right: 15rem;}
     100% {right: 11rem;}
-} 
+}  */
 .solid{
     background-image: var(--planCard);
     position: absolute;
     top: 1rem;
     right: 9rem;
 }
-.animation2{
+/* .animation2{
     animation-name:  solid-move;
     animation-duration: 1s;
-}
-@keyframes solid-move {
+} */
+/* @keyframes solid-move {
     0%   {right: 5rem;}
     100% {right: 9rem;}
-} 
+}  */
 .timoinal-image{
     height: 18.8rem;
     width: 16.8rem;
@@ -101,11 +101,11 @@
     top: 0;
     right: 10rem;
 }
-.animation3{
+/* .animation3{
     animation-name:  image-move;
     animation-duration: .4s;
-}
-@keyframes image-move {
+} */
+/* @keyframes image-move {
     0%   {
         right: 6rem;
         opacity: 0;
@@ -117,7 +117,7 @@
         right: 10rem;
         opacity: 1;
     }
-} 
+}  */
 .timonial-arrows{
     position: absolute;
     right: 37rem;

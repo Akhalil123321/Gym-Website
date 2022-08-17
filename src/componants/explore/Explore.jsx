@@ -18,7 +18,7 @@ const Explore = () => {
         )
     })
     return(
-        <section className="part-cont">
+        <section className="part-cont" id='explore'>
             <div className="ex-head-cont">
                 <span className="normal-title transparent-title italic">explore our</span>
                 <span className="normal-title italic">programs</span>

@@ -37,13 +37,7 @@ font-size: 16px;
     border-radius: 4rem;
     z-index: -1;
     margin: .4rem .5rem;
-    animation-name: slide;
-    animation-duration: 6s;
 }
-@keyframes slide {
-    0%   {left:70%;}
-    100% {left:0;}
-} 
 .the-best-fitness>span{
     color: #ffffff;
     font-size: 1rem;
@@ -90,13 +84,7 @@ font-size: 16px;
     position: absolute;
     right: 4rem;
     top: 7rem;
-    animation-name: heart-rate-move;
-    animation-duration: 6s;
 }
-@keyframes heart-rate-move {
-    0%   {right:-2rem;}
-    100% {right:4rem;}
-} 
 .heart-rate>img{
     width: 2rem;
 }
@@ -119,13 +107,8 @@ font-size: 16px;
     right: 20rem;
     z-index: -1;
     width: 15rem;
-    animation: back-move;
-    animation-duration: 6s;
+
 }
-@keyframes back-move {
-    0%   {right:10rem;}
-    100% {right:20rem;}
-} 
 .calories-burner{
     display: flex;
     gap: 2rem;
@@ -136,13 +119,7 @@ font-size: 16px;
     position: absolute;
     top: 33rem;
     right: 27rem;
-    animation-name: calories-burner-move;
-    animation-duration: 6s;
 }
-@keyframes calories-burner-move {
-    0%   {right:35rem;}
-    100% {right:27rem;}
-} 
 .calories-burner>img{
     width: 3rem;
 }
@@ -150,7 +127,7 @@ font-size: 16px;
     display: flex;
     flex-direction: column;
     width: 4rem;
-}
+} 
 
 @media screen and (max-width: 900px) {
     .hero{
@@ -167,17 +144,18 @@ font-size: 16px;
         justify-content: center;
     }
     .l-side{
-        width: 90%;
+        width: 100%;
         background-color: transparent;
         align-items: center;
-        gap: 3rem; 
+        gap: 3rem;
+        padding: 0; 
     }
     .hero-par{
         text-align: center;
         width: 80%;
     }
     .score-cont{
-        width: 100%;
+        width: 90%;
         font-size: .9rem;
     }
     .score-num{
@@ -186,6 +164,7 @@ font-size: 16px;
     .the-best-fitness{
         font-size: .8rem;
         padding: 1.5rem 1rem;
+        margin: 0;
         margin-top: 2rem;
     }
     .heart-rate{
@@ -233,4 +212,9 @@ font-size: 16px;
     .calories-dedailes{
         width: 100%;
     }
+}
+.hero-blure{
+    left:0;
+    width: 22rem;
+    height: 30rem;
 }

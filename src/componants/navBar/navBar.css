@@ -13,7 +13,7 @@
     font-weight:lighter;
     z-index: 1;
 }
-.n-b-off, .n-b-on>li:hover{
+.n-b-off>li:hover, .n-b-on>li:hover{
     cursor: pointer;
     color: var(--orange);
 }
@@ -37,7 +37,7 @@
     .n-b-on{
         flex-direction: column;
         background-color: var(--appColor);
-        width: 18vw;
+        width: 24vw;
         height: 18rem;
         padding: 2rem;
         justify-content: space-between;

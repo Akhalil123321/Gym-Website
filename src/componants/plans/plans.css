@@ -2,7 +2,9 @@ h1,h4{
     margin: 0;
     padding:0;
 }
-
+.plans-cont{
+    position: relative;
+}
 .plans-head-cont{
     width: 75%;
     display: flex;
@@ -85,5 +87,28 @@ margin: auto 0;
     }
     .plan-penifits>span{
         font-size: 1.2rem;
+    }
+}
+    .plans-blur{
+        width: 22rem;
+        height: 30rem;
+    }
+    .blue-l{
+        left: 0;
+    }
+    .blue-r{
+        right: 0;
+    }
+@media screen and (max-width: 900px) {
+    .plans-blur{
+        width: 36rem;
+        height: 45rem;
+    }
+    .blue-l{
+        left: calc(50% - 18rem);
+        top: 0;
+    }
+    .blue-r{
+        display: none;
     }
 }

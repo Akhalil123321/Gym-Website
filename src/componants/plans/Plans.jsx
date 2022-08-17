@@ -6,7 +6,7 @@ import './plans.css'
 const Plans = () => {
     const plans = plansData.map(items =>{
         return(
-            <section className="plan-one">
+            <div className="plan-one" id="plans">
                 {items.icon}
                 <h4>{items.name}</h4>
                 <h1 className="planes-price">$ {items.price}</h1>
@@ -29,13 +29,15 @@ const Plans = () => {
                     <img src={rightArrow} alt="" />
                 </div>
                 <button className="btn l-btn full">Join now</button>
-            </section>
+            </div>
             
         )
     })
 
     return(
-        <div>
+        <div className="plans-cont">
+            <div className="blur plans-blur blue-l"></div>
+            <div className="blur plans-blur blue-r"></div>
             <div className="plans-head-cont">
                 <span className="normal-title transparent-title small italic">ready to start</span>
                 <span className="normal-title small italic">your journey</span>

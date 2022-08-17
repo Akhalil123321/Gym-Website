@@ -60,6 +60,7 @@ path{
     flex-direction: column;
     text-align: center;
     gap: 1.2rem;
+    margin-top: 3rem;
     }
     .part-cont{
         align-items: center;

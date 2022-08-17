@@ -23,6 +23,7 @@
 .collect-pack2-1{
     height:auto;
     height:calc(60% - 0.5rem) ;
+    object-fit: cover;
 
 }
 .collect-pack2-2{
@@ -33,13 +34,11 @@
 }
 .collect-pack2-2-1{
     width:calc(60% - .5rem) ;
+    object-fit: cover;
 }
 .collect-pack2-2-2{
     width:calc(40% - .5rem) ;
-}
-.normal-span{
-    font-size: 3rem;
-    font-style: italic;
+    object-fit: cover;
 }
 .reasons-cont{
     flex: 1;
@@ -89,17 +88,20 @@ color: var(--gray);
         flex-direction: column;
     }
     .colection-cont{
-        gap: 8vw;
+        gap: 4vw;
     }
     .collect-pack1{
-        height: 22rem;
-        width: 9rem;
+        height: 80vw;
+        width: 25vw;
+        max-height: 40rem;
     }
     .collect-pack2{
-        height: 22rem;
+        height: 80vw;
+        width: 55vw;
+        max-height: 40rem;
     }
     .collect-pack2-2{
-        gap: 8vw;
+        gap: 4vw;
     }
     .reasons-cont{
         gap: 2rem;

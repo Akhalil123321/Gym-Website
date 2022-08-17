@@ -11,7 +11,7 @@ import adidas from '../../images/adidas.png'
 import './reasons.css'
 const Reasons = () => {
     return(
-        <section>
+        <section id='reasons'>
             <div className="pack-cont">
                 <div className="colection-cont">
                     <img src={image1} alt="" className="collect-pack1"/>

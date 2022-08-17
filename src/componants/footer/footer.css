@@ -6,6 +6,7 @@ footer{
     align-items: center;
     justify-content: center;
     gap: 4rem;
+    position: relative;
 }
 .social-cont{
     display: flex;
@@ -13,4 +14,21 @@ footer{
 }
 .foot-icon{
     font-size: 2rem;
+}
+.footer-blur {
+    width: 15rem;
+    height: 20rem;
+}
+.f-blue-l{
+    left: 20rem;
+}
+.f-blue-r{
+    right: 20rem;
+	background: rgba(253, 43, 43, 0.69);
+}
+@media screen and (max-width: 900px) {
+    .footer-blur {
+        width: 23rem;
+        height: 30rem;
+    }
 }
