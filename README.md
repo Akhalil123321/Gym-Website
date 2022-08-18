@@ -4,4 +4,4 @@
 
 ### demo
 
-<a href=''><img src='public/gym-site.png' width=1000vw/></a>
+<a href='https://gymwebsite-91b.pages.dev/'><img src='public/gym-site.png' width=1000vw/></a>
